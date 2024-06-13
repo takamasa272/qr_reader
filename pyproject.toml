@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "qr_reader"
-version = "0.0.3"
+version = "1.0.0"
 description = "Read QR code from the image on your clipboard."
 readme = "README.md"
 license = {file = "LICENSE"}
