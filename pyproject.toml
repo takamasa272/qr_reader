@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "qr_reader"
+version = "0.0.3"
+description = "Read QR code from the image on your clipboard."
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+authors = [
+  { name = "Masaya Takahashi" },
+]
+dependencies = [
+  "opencv-python>=4.8",
+  "numpy",
+  "pillow",
+]
+
+[project.scripts]
+qread = "qr_reader.qr_reader:main"
