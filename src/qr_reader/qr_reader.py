@@ -17,7 +17,7 @@ def main():
 
     # output QR code
     for i, content in enumerate(decoded_data):
-        print(i, content)
+        print(str(i + 1) + ":", content)
 
 
 def QR_decode(clipImg: ndarray) -> list:
